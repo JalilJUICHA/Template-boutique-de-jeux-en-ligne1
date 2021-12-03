@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#eeeae4 ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+nav img{
+    margin: 20px;
+}
+
+nav ul{
+    margin-left: 200px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
