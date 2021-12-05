@@ -15,16 +15,16 @@ nav{
     margin-bottom: 50px;
 }
 nav img{
-    margin: 20px;
+    margin: 30px;
 }
 
 nav ul{
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
 nav ul li{
     list-style-type: none;
-    display: inline-block;
+    display: inline; 
     margin: 0 25px;
 }
 
@@ -37,4 +37,27 @@ nav ul li a{
 
 nav ul li a:hover{
     text-decoration: underline;
+}
+
+.breadcrumbs ol li{
+    display: inline;
+    margin: 0 30px;
+}
+
+.breadcrumbs ol li a{
+    text-decoration: none;
+    font-size: 21px;
+    color: black;
+}
+.breadcrumbs ol li a:hover{
+    text-decoration: underline;
+}
+
+.description{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.description h1{
+    margin-bottom: 16px;
 }
