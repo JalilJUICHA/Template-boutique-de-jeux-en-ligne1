@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Rubik;
+    box-sizing: border-box;
+    background-color: beige;
+    color: #000;
+    font-size: 22px;
+}
+
+form{
+    border: 2px solid red;
+    width: 70%;
+    border-radius: 18px;
+    margin: 30px auto;
+    padding: 20px;
+    line-height: 40px;
+
+}
+
+form p{
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+form input{
+    display: inline;
+    margin-left: 8px;
+}
+
+form label{
+    display: inline;
+}
+
+.search{
+    width: 220px;
+    padding: 10px;
+
+}
+
+h1{
+    margin: 30px auto;
+}

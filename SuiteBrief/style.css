@@ -65,10 +65,13 @@ nav ul li a:hover{
 /* ================================================== */
 
 .product_card{
+    width: 90%;
     display: flex;
     gap: 16px;
-    justify-content: space-around;
-    margin-top: 30px;
+    justify-content: space-between;
+    margin: 30PX auto;
+    gap:18px;
+    flex-wrap: wrap;
 }
 
 .product_card_content{
@@ -90,5 +93,43 @@ nav ul li a:hover{
 .product_card_content:hover{
     transition: all 0.5s;
     transform: scale(102%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul{
+        margin: 0;
+        line-height: 30px;
+    }
+
+    nav ul li{
+        display: block;
+        text-align: center;
+    }
+
+    .breadcrumbs ol li a{
+        font-size: 18px;
+    }
+
+    .product_card{
+        justify-content: center;
+    }
+    
 
 }

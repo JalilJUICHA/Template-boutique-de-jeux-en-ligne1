@@ -3,11 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulaie de création portailimmobilier</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="cc">
+        <h1>Portail Immobilier En Ligne</h1>
+    </div>
+        
     <form>
-        <p>Rayon de Recherche: <input type="text" name="recerche" placeholder="Recherche..."</p>
-        <p>Fourchette de prix : <input type="number"</p>
+        <p>Rayon de Recherche:
+        <input type="text" name="recherche" class="search" placeholder="Recherche..."></p>
+
+        <p>Fourchette de prix:</p>
+        <input type="radio" name="Basic" value="35K"> 
+        <label for="html">Logement Basic"+35K"</label><br>
+        <input type="radio" name="Mediume" value="75K">
+        <label for="html">Logement Mediume"+75K"</label><br>
+        <input type="radio" name="Haute Standing" value="+100K" >
+        <label for="html">Logement Haute Standing"+100K"</label><br>
+
+        <p>Nombre De Chambre:</p>
+        <input type="checkbox" name="Basic" value="2"> 
+        <label for="html">2Chambre.</label><br>
+        <input type="checkbox" name="Mediume" value="3">
+        <label for="html">3Chambre.</label><br>
+        <input type="checkbox" name="Haute Standing" value="+4">
+        <label for="html">+4Chambre</label><br>
+
+        <p>Type De Propriété:</p>
+        <input type="radio" name="Basic" value="">
+        <label for="html">Immatriculé (Titré)</label><br>
+        <input type="radio" name="Mediume" value="">
+        <label for="html">En Cours D'immatriculation (En Réquisition)</label><br>
+        <input type="radio" name="Haute Standing" value="">
+        <label for="html">Non Immatriculé(Melkia)</label><br>
+  
+        <p>Inclure Les Logements Vendus:</p>
+        <input type="checkbox" name="Basic" value="">
+        <label for="html">OUI</label><br>
+        <input type="checkbox" name="Basic" value="">
+        <label for="html">NOM</label><br>    
+  
     </form>
     
 </body>
